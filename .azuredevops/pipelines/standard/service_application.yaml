@@ -1,0 +1,11 @@
+# application_name = app to be deployed, deployment_type one of initial / update / decomission
+name: $(application_name)-$(deployment_type)-$(Build.Rev)
+
+stages:
+  - test_stage:
+    displayName: Test
+    jobs:
+      - job_a:
+        steps:
+          - bash: |
+              echo "Hello, world!"

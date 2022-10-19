@@ -1,0 +1,8 @@
+gcfversion: v2.0.0
+blueprints:
+  - Core:
+    version: v2.0.1
+  - Network.Shared.VPC:
+    version: v2.0.0
+  - OU:
+    version: v2.0.0

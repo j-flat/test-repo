@@ -1,0 +1,9 @@
+# Application Landing Zone [APPLICATION_NAME] [DEPLOYMENT_TYPE: Initial | Update | Decomission]
+
+Following pull request will commit new application ladingzone configuration to this repository.
+
+The application landingzone deployment will be base on the configuration found in: /organization_units/[OU_NAME]/[APPLICATION_NAME]/[APPLICATION_NAME].config.yaml.
+
+**Before submitting this PR**, please make sure:
+
+- [ X ] The application configuration file passes application landingzone yaml-validation
